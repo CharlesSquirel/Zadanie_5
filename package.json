@@ -32,7 +32,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "settings": {
+      "import/parsers": {
+        "@typescript-eslint/parser": [".ts"]
+      },
+      "import/resolver": {
+        "typescript": {}
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -45,5 +53,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "webpack": "^5.82.0"
   }
 }
