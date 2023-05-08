@@ -1,0 +1,36 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --yellow: #f9b234;
+  --primary-color: #00a19b;
+  --secondary-color: #095048;
+  --bg-input: #80d0cd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+input {
+  cursor: pointer;
+  border: none;
+  background-color: var(--bg-input);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
